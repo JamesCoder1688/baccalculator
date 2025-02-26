@@ -1,0 +1,62 @@
+import React from 'react'
+import { 
+  CalculatorIcon, 
+  ChartBarIcon, 
+  UserGroupIcon, 
+  ShieldCheckIcon 
+} from '@heroicons/react/24/outline'
+
+const features = [
+  {
+    name: 'Instant BMI Calculation',
+    description: 'Get your BMI results instantly with our accurate calculator.',
+    icon: CalculatorIcon,
+  },
+  {
+    name: 'Personalized Recommendations',
+    description: 'Receive tailored health advice based on your BMI results.',
+    icon: ChartBarIcon,
+  },
+  {
+    name: 'Expert Guidance',
+    description: 'Access professional health insights and recommendations.',
+    icon: UserGroupIcon,
+  },
+  {
+    name: 'Privacy First',
+    description: 'Your health data is always secure and private.',
+    icon: ShieldCheckIcon,
+  },
+]
+
+export default function Features() {
+  return (
+    <div className="bg-white py-24">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl lg:text-center">
+          <h2><p className="mt-2 text-3xl font-bold tracking-tight text-blue-900 sm:text-4xl">
+            Everything you need to track your BMI
+          </p></h2>
+          <p className="mt-6 text-lg leading-8 text-gray-600">
+            Our comprehensive BMI calculator provides accurate results and personalized recommendations to help you maintain a healthy lifestyle.
+          </p>
+        </div>
+        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-4">
+            {features.map((feature) => (
+              <div key={feature.name} className="flex flex-col">
+                <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
+                  <feature.icon className="h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
+                  {feature.name}
+                </dt>
+                <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
+                  <p className="flex-auto">{feature.description}</p>
+                </dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      </div>
+    </div>
+  )
+}
