@@ -55,7 +55,7 @@ export default function KnowledgeCenter() {
             While BMI is a useful screening tool, it's important to consult with healthcare professionals for personalized health advice.
           </p>
           <Link 
-            href="/calculator"
+            href="/"
             className="inline-block bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors duration-200"
           >
             Calculate Your BMI
