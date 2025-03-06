@@ -8,7 +8,7 @@ const siteMap = [
     title: 'Main Pages',
     links: [
       { name: 'Home', href: '/' },
-      { name: 'BMI Calculator', href: '/calculator' },
+      { name: 'BMI Calculator', href: '/bmi-calculator' },
       { name: 'What is BMI', href: '/what-is-bmi' },
       { name: 'Knowledge Center', href: '/knowledge-center' },
     ]
@@ -17,15 +17,15 @@ const siteMap = [
     title: 'Information',
     links: [
       { name: 'About Us', href: '/about' },
-      { name: 'How It Works', href: '/how-it-works' },
-      { name: 'FAQ', href: '/faq' },
+      { name: 'How to Calculate BMI', href: '/how-to-calculate-bmi' },
+      { name: 'Improve BMI', href: '/improve-bmi' },
     ]
   },
   {
     title: 'Legal',
     links: [
       { name: 'Privacy Policy', href: '/privacy' },
-      { name: 'Terms of Service', href: '/terms' },
+      { name: 'Contact', href: '/contact' },
       { name: 'Disclaimer', href: '/disclaimer' },
     ]
   }
