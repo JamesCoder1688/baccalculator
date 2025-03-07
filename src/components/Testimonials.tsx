@@ -3,24 +3,24 @@ import { StarIcon } from '@heroicons/react/24/solid'
 
 const testimonials = [
   {
-    name: 'Sarah Johnson',
-    role: 'Fitness Enthusiast',
+    name: 'David Thompson',
+    role: 'Safety Advocate',
     image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    content: 'This BMI calculator has been instrumental in my fitness journey. The personalized recommendations are incredibly helpful!',
+    content: 'This BAC calculator helps me make informed decisions about drinking responsibly. The safety tips are especially valuable!',
     rating: 5
   },
   {
-    name: 'Michael Chen',
-    role: 'Personal Trainer',
+    name: 'Lisa Chen',
+    role: 'Event Planner',
     image: 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    content: 'I recommend this tool to all my clients. It\'s accurate, easy to use, and provides valuable insights.',
+    content: 'I recommend this tool to my event clients. It\'s a great way to promote responsible drinking at social gatherings.',
     rating: 5
   },
   {
-    name: 'Emma Wilson',
-    role: 'Healthcare Professional',
+    name: 'Mark Wilson',
+    role: 'Health Educator',
     image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    content: 'As a healthcare professional, I appreciate the accuracy and comprehensive health advice provided by this bmi calculator.',
+    content: 'As a health educator, I appreciate how this tool helps people understand BAC levels and promotes safe drinking habits.',
     rating: 5
   }
 ]
@@ -30,11 +30,11 @@ export default function Testimonials() {
     <div className="bg-gray-50 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-                    <h2><p className="mt-2 text-3xl font-bold tracking-tight text-blue-900 sm:text-4xl">
-            Trusted by Over 100,000 Users
+          <h2><p className="mt-2 text-3xl font-bold tracking-tight text-blue-900 sm:text-4xl">
+            Trusted by Thousands of Users
           </p></h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            See what our users have to say about their experience with our BMI calculator
+            See what our users say about their experience with our BAC Calculator
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mt-20 lg:max-w-none lg:grid-cols-3">
