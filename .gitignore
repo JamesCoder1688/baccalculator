@@ -1,0 +1,47 @@
+# Node.js 依赖
+node_modules/
+package-lock.json
+yarn.lock
+.npm/
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/install-state.gz
+
+# Next.js 构建输出
+.next/
+out/
+
+# 环境变量文件
+.env
+.env.local
+.env.development
+.env.production
+
+# 日志和缓存
+*.log
+.cache/
+.DS_Store
+
+# IDE 和编辑器配置
+.vscode/
+.idea/
+*.suo
+*.user
+
+# 测试和覆盖率
+coverage/
+*.lcov
+
+# 其他临时文件
+*.tmp
+*.bak
+*.swp
+
+# TypeScript 构建信息
+*.tsbuildinfo
+
+# Next.js 缓存和静态文件
+.next/cache/
+.next/server/
+.next/static/
