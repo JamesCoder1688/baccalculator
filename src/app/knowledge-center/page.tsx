@@ -13,17 +13,17 @@ export default function KnowledgeCenter() {
     {
       title: 'BMI and Health Risks',
       description: 'Discover the relationship between BMI and various health conditions.',
-      link: '/knowledge-center/bmi-and-health'
+      link: '/'
     },
     {
       title: 'Maintaining a Healthy BMI',
       description: 'Tips and strategies for achieving and maintaining a healthy BMI through lifestyle changes.',
-      link: '/knowledge-center/healthy-bmi'
+      link: '/'
     },
     {
       title: 'BMI Myths and Facts',
       description: 'Common misconceptions about BMI and the truth behind them.',
-      link: '/knowledge-center/myths-and-facts'
+      link: '/'
     }
   ]
 
