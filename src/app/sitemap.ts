@@ -61,6 +61,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.5,
+    },
+    {
+      url: 'https://www.bmi-calculator.co/faq',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: 'https://www.bmi-calculator.co/health-tips',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://www.bmi-calculator.co/terms',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.5,
+    },
+    {
+      url: 'https://www.bmi-calculator.co/site-map',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.4,
     }
   ]
 } 
