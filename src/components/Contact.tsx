@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 
-export default function ContactForm() {
+export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -44,7 +44,7 @@ export default function ContactForm() {
         >
           <h1 className="text-4xl font-bold text-gray-900">Contact Us</h1>
           <p className="mt-4 text-xl text-gray-600">
-            Get in touch with our health experts for personalized BMI advice
+            Get in touch with our team for questions about BAC calculation and alcohol safety
           </p>
         </motion.div>
 
