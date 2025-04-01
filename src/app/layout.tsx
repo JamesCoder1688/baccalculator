@@ -27,7 +27,7 @@ export default function RootLayout({
       <head>
         {/* Google Tag Manager */}
         <Script
-          id="gtm-script"
+          id="gtm"
           strategy="afterInteractive"
         >
           {`
@@ -39,10 +39,12 @@ export default function RootLayout({
             })(window,document,'script','dataLayer','GTM-KSJG28RP');
           `}
         </Script>
+
         {/* Google Analytics */}
         <Script
+          id="google-analytics-loader"
           strategy="afterInteractive"
-          src={`https://www.googletagmanager.com/gtag/js?id=YOUR_GA_ID`}
+          src="https://www.googletagmanager.com/gtag/js?id=G-5D5SWP98CZ"
         />
         <Script
           id="google-analytics"
@@ -52,11 +54,11 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'YOUR_GA_ID');
+            gtag('config', 'G-5D5SWP98CZ');
           `}
         </Script>
 
-        {/* 爱站统计 */}
+        {/* 爱站统计 - 修改为 HTTPS */}
         <Script
           id="aizhan-analytics"
           strategy="afterInteractive"
@@ -73,7 +75,7 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={`${inter.className} h-full`}>
-        {/* Google Tag Manager (noscript) */}
+        {/* Google Tag Manager (noscript) - 添加这个部分 */}
         <noscript>
           <iframe 
             src="https://www.googletagmanager.com/ns.html?id=GTM-KSJG28RP"
