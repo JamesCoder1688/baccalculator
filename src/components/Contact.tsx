@@ -69,7 +69,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-sm font-medium text-gray-900">Email</p>
-                    <p className="text-sm text-gray-600">support@bachealth.com</p>
+                    <p className="text-sm text-gray-600">support@bac health.com</p>
                   </div>
                 </div>
 

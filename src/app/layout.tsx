@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   keywords: 'BAC,BAC calculator,Blood alcohol content,Alcohol calculator,BAC chart,BAC level,Blood alcohol calculator',
   alternates: {
     canonical: 'https://www.bac-calculator.online/'
+  },
+  verification: {
+    google: 'hbg-CKFzlmMxS5s2ZuNhT5orH8er044eep_tarkEqH4'
   }
 }
 
