@@ -2,10 +2,10 @@ import React from 'react'
 import Link from 'next/link'
 
 const navigation = {
-  friendLinks: [
-    { name: 'BMI Calculator', href: 'https://www.bmi-calculator.co', external: true },
-    { name: 'Speed Test', href: 'https://www.cesu-wang.com', external: true },
-    { name: 'Dog Names', href: 'https://www.dognames.cc', external: true },
+  socialMedia: [
+    { name: 'Follow us on Twitter/X', href: 'https://x.com/account/access', external: true },
+    { name: 'Follow on Instagram', href: 'https://www.instagram.com', external: true },
+    { name: 'Join our YouTube', href: 'https://www.youtube.com/', external: true },
   ],
   resources: [
     { name: 'BAC Guide', href: '/how-to-calculate-bac' },
