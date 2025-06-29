@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/_next/', '/static/'],
     },
-    sitemap: 'https://www.bac-calculator.online/sitemap.xml',
+    sitemap: 'https://www.baccalcutor.cc/sitemap.xml',
   }
 }
